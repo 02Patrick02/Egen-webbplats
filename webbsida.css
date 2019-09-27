@@ -1,0 +1,55 @@
+table, th, td{ /* Sätter riktlinjer för table, th, td*/
+    border: 1px solid black; /*tjocklek och färg på ramen*/
+    border-collapse:collapse; /* gör så att ramen är en linje*/
+    width:25%; /* bredden på tabbelen är 25%av skärmen*/
+}
+
+tr:nth-child(odd) { /*Pseudo class selector*/
+    background-color: brown;/* bakgrundsfärg*/
+    text-align:center;/* Centrerar texten*/
+
+}
+tr:nth-child(even) {
+    background-color: darkseagreen; 
+    text-align:center;}
+
+tr:nth-child(1) {
+    background-color: darkcyan;
+}
+
+.white {
+    color:white; /* Ändrar färg på bokstäver*/
+    width: 180px; /* 180 px på bredden*/
+    padding: 10px; /* Storlek för länklådan*/
+    background-color: grey;
+    border:1px solid orange;
+}
+.white1{
+    color:white;
+}
+
+a:hover { /* Ändrar färg när musen kommer över länken*/
+    color: purple;
+}
+
+.link{
+    margin-left:280px; /* Flyttar på länken */
+    color: white;
+}
+.bear {
+    width: 40%;
+    margin-left: 250px;
+}
+
+.box {
+    width: 180px; 
+    padding: 10px; 
+    background-color: grey;
+    border:1px solid orange;
+    color: white;
+}
+
+.picture {
+    background-image: url(https://www.alternativesjournal.ca/sites/default/files/imagecache/slide_detail/magazine/cabin%20in%20the%20woods%20Fotolia_67477753%20%C2%A9%20laszlolorik.jpg);
+    background-size: 1500px 800px; /* Bakgrundsbildens storlek*/
+}
